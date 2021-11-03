@@ -10,7 +10,7 @@ body {
 .menu {
     display: flex;
     justify-content: center;
-    margin-top: 10px;
+    margin: 10px 0px;
 }
 
 .menu a {
