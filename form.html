@@ -4,7 +4,11 @@
         <title>
             Projeto Exemplo
         </title>
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <meta charset="UTF-8">
+        <link rel="stylesheet" href="css/list.css">
         <link rel="stylesheet" href="./css/style.css">
+        <link rel="stylesheet" href="./css/form.css">
     </head>
     <body>
         <header class=cabecalho>
@@ -14,22 +18,33 @@
             <a href="./index.html">Listagem</a>
             <a href="./form.html">Cadastrar</a>
         </div>
-        <table>
-            <tr>
-                <td>
-                    Nome
-                </td>
-                <td>
-                    Telefone
-                </td>
-                <td>
-                    Experiencia Prévia
-                </td>
-                <td>
-                    Ações
-                </td>
-            </tr>
-        </table>
-        Meu Formulario
+       <section>
+            <form class=formulario>
+                <div class="linha-formulario">
+                    <label class="label-grande" for="name">Nome:</label>
+                    <input name="name" id="name" required type="text"/>
+                </div>
+                
+                <div class="linha-formulario">
+                    <label class="label-grande" for="name">Telefone:</label>
+                    <input name="phone" id="phone" required type="text"/>
+                </div>
+                
+                <div>
+                    <label class="label-grande" >Experiencia Previa:</label>
+                    <div style="display: inline-block; width: 40%;">
+                         <input type="radio" name="xp" id=XP-yes/> <label for="XP-yes"> Sim </label>
+                         <br>
+                         <input type="radio" name="xp" id=XP-no/> <label for="XP-no"> Nao </label>
+                    </div>
+                </div>
+
+                <input type="submit" value="Salvar">
+                
+                
+            </form>
+
+       </section>
+        
     </body>
 </html>
