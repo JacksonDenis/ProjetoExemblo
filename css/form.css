@@ -21,7 +21,8 @@
 .xp-line div {
     display: inline-block; width: 40%;
 }
-@media screen and(max-width:419) {
+
+@media screen and(max-width:419px) {
     .formulario input[type="text"] {
         width: 100%;
     }
